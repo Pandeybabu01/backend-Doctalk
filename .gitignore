@@ -1,0 +1,70 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# IDE files
+.vscode/
+.idea/
+
+# Optional npm cache directory
+.npm/
+
+# Coverage directory used by testing libraries
+coverage/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Mac system files
+*.DS_Store
+
+# Windows system files
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Optional: if using turbo repo
+turbo/
+
+# Optional: if using vercel
+.vercel/
+
+# Optional: if using netlify
+.netlify/
+
+# Optional: local docker files
+docker-compose.override.yml
