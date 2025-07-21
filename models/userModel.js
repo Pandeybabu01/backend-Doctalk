@@ -11,7 +11,9 @@ const userSchema = new mongoose.Schema({
   },
   address: { type: Object, default: { line1: "", line2: "" } },
   gender: { type: String, default: "Not Selected" },
-  dob: { type: Number, required: true, min: [0, 'Age must be positive number']},
+  dob: {
+    type: Number,
+  },
   phone: { type: String, default: "0000000000" },
 });
 
